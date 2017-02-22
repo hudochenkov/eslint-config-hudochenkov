@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-hudochenkov",
+  "version": "1.0.0",
+  "description": "My ESLint configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudochenkov/eslint-config-hudochenkov.git"
+  },
+  "author": "Aleks Hudochenkov <aleks@hudochenkov.com> (https://hudochenkov.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hudochenkov/eslint-config-hudochenkov/issues"
+  },
+  "homepage": "https://github.com/hudochenkov/eslint-config-hudochenkov#readme",
+  "peerDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-plugin-react": "^6.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
