@@ -2,6 +2,10 @@
   "name": "eslint-config-hudochenkov",
   "version": "1.0.0",
   "description": "My ESLint configs",
+  "files": [
+    "base.js",
+    "react.js"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "eslint ."
