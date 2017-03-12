@@ -13,7 +13,6 @@ module.exports = {
 	},
 	rules: {
 		// ECMAScript 6
-		'arrow-body-style': ['warn', 'as-needed'],
 		'arrow-parens': ['error', 'always'],
 		'arrow-spacing': ['error'],
 		'no-confusing-arrow': ['error'],
