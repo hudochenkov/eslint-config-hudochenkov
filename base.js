@@ -115,7 +115,7 @@ module.exports = {
 		'no-mixed-operators': ['error'],
 		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		'no-multi-assign': ['error'],
-		'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 1, maxBOF: 0 }],
+		'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0, maxBOF: 0 }],
 		'no-nested-ternary': ['error'],
 		'no-new-object': ['error'],
 		'no-trailing-spaces': ['error'],
