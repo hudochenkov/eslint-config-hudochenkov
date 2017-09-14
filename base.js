@@ -137,6 +137,17 @@ module.exports = {
 				prev: '*',
 				next: 'return',
 			},
+			// Require blank lines before and after all following statements
+			{
+				blankLine: 'always',
+				prev: '*',
+				next: ['for', 'function', 'if', 'switch', 'try'],
+			},
+			{
+				blankLine: 'always',
+				prev: ['for', 'function', 'if', 'switch', 'try'],
+				next: '*',
+			},
 		],
 		'no-bitwise': ['error'],
 		'no-lonely-if': ['error'],
