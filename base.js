@@ -107,9 +107,37 @@ module.exports = {
 		'key-spacing': ['error'],
 		'keyword-spacing': ['error'],
 		'linebreak-style': ['error'],
-		'lines-around-directive': ['error', { before: 'never', after: 'always' }],
-		'newline-after-var': ['error'],
-		'newline-before-return': ['error'],
+		'padding-line-between-statements': [
+			'error',
+			// Require blank lines after all directive prologues (e. g. 'use strict')
+			{
+				blankLine: 'always',
+				prev: 'directive',
+				next: '*',
+			},
+			{
+				blankLine: 'never',
+				prev: 'directive',
+				next: 'directive',
+			},
+			// Require blank lines after every sequence of variable declarations
+			{
+				blankLine: 'always',
+				prev: ['const', 'let', 'var'],
+				next: '*',
+			},
+			{
+				blankLine: 'any',
+				prev: ['const', 'let', 'var'],
+				next: ['const', 'let', 'var'],
+			},
+			// Require blank lines before all return statements
+			{
+				blankLine: 'always',
+				prev: '*',
+				next: 'return',
+			},
+		],
 		'no-bitwise': ['error'],
 		'no-lonely-if': ['error'],
 		'no-mixed-operators': ['error'],
