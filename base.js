@@ -107,6 +107,7 @@ module.exports = {
 		'key-spacing': ['error'],
 		'keyword-spacing': ['error'],
 		'linebreak-style': ['error'],
+		'lines-between-class-members': ['error', 'always'],
 		'padding-line-between-statements': [
 			'error',
 			// Require blank lines after all directive prologues (e. g. 'use strict')
