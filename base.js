@@ -165,7 +165,7 @@ module.exports = {
 		'one-var': ['error', 'never'],
 		'one-var-declaration-per-line': ['error'],
 		'padded-blocks': ['error', 'never'],
-		'quote-props': ['error', 'consistent-as-needed'],
+		'quote-props': ['error', 'as-needed'],
 		'quotes': ['error', 'single', { allowTemplateLiterals: true }],
 		'semi': ['error', 'always'],
 		'semi-spacing': ['error'],
