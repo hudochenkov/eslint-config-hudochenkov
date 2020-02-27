@@ -3,8 +3,19 @@
   "version": "3.0.2",
   "description": "My ESLint configs",
   "files": [
+    "plugin/import.js",
+    "plugin/jsx-a11y.js",
+    "plugin/react.js",
+    "plugin/unicorn.js",
     "base.js",
-    "react.js"
+    "best-practices.js",
+    "common-plugins.js",
+    "es6.js",
+    "index.js",
+    "possible-errors.js",
+    "react.js",
+    "stylistic-issues.js",
+    "variables.js"
   ],
   "main": "index.js",
   "scripts": {
@@ -21,10 +32,19 @@
   },
   "homepage": "https://github.com/hudochenkov/eslint-config-hudochenkov#readme",
   "peerDependencies": {
-    "eslint": "^5.1.0 || ^6.0.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-unicorn": "^16.1.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.18.3"
-  }
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-unicorn": "^16.1.1",
+    "prettier": "^1.19.1",
+    "prettier-config-hudochenkov": "^0.1.0"
+  },
+  "prettier": "prettier-config-hudochenkov"
 }
