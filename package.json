@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hudochenkov",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "My ESLint configs",
   "files": [
     "plugin/import.js",
