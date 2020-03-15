@@ -19,5 +19,6 @@ module.exports = {
 		'unicorn/prefer-query-selector': 'warn',
 		'unicorn/prefer-starts-ends-with': 'warn',
 		'unicorn/throw-new-error': 'off',
+		'unicorn/better-regex': 'warn',
 	},
 };
