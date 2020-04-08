@@ -19,7 +19,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "fix": "eslint . --fix && prettier '**/*.js' --write"
   },
   "repository": {
     "type": "git",
