@@ -14,7 +14,7 @@ module.exports = {
 		'no-unneeded-ternary': 'warn',
 		'one-var': ['warn', 'never'],
 		'padding-line-between-statements': [
-			'error',
+			'warn',
 			// Require blank lines after all directive prologues (e. g. 'use strict')
 			{
 				blankLine: 'always',
