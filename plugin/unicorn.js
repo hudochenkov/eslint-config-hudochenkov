@@ -2,7 +2,6 @@ module.exports = {
 	plugins: ['unicorn'],
 
 	rules: {
-		// 'unicorn/better-regex': 'warn',
 		'unicorn/error-message': 'warn',
 		'unicorn/no-array-instanceof': 'warn',
 		'unicorn/no-console-spaces': 'warn',
