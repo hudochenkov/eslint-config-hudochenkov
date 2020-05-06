@@ -1,7 +1,5 @@
 # eslint-config-hudochenkov
 
-[![Build Status][ci-img]][ci]
-
 My configs for [ESLint].
 
 Available configs:
@@ -49,11 +47,7 @@ Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/
 }
 ```
 
-[ci-img]: https://github.com/hudochenkov/eslint-config-hudochenkov/workflows/CI/badge.svg
-[ci]: https://github.com/hudochenkov/eslint-config-hudochenkov/actions
-
 [ESLint]: https://eslint.org/
-
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
 [eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
 [eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/master/packageseslint-plugin-react-hooks
