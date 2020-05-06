@@ -1,4 +1,6 @@
-# eslint-config-hudochenkov [![Build Status][ci-img]][ci]
+# eslint-config-hudochenkov
+
+[![Build Status][ci-img]][ci]
 
 My configs for [ESLint].
 
@@ -47,8 +49,9 @@ Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/
 }
 ```
 
-[ci-img]: https://travis-ci.org/hudochenkov/eslint-config-hudochenkov.svg
-[ci]: https://travis-ci.org/hudochenkov/eslint-config-hudochenkov
+[ci-img]: https://github.com/hudochenkov/eslint-config-hudochenkov/workflows/CI/badge.svg
+[ci]: https://github.com/hudochenkov/eslint-config-hudochenkov/actions
+
 [ESLint]: https://eslint.org/
 
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
