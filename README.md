@@ -50,6 +50,6 @@ Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/
 [ESLint]: https://eslint.org/
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
 [eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
-[eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/master/packageseslint-plugin-react-hooks
+[eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
 [eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
