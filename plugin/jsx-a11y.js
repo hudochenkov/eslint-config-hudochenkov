@@ -13,7 +13,5 @@ module.exports = {
 
 	extends: ['plugin:jsx-a11y/recommended'],
 
-	rules: {
-		'jsx-a11y/no-onchange': 'off',
-	},
+	rules: {},
 };
