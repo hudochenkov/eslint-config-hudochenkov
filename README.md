@@ -17,20 +17,6 @@ Install config:
 npm install --save-dev eslint-config-hudochenkov
 ```
 
-Install required plugins, which are listed as peer dependencies in this config:
-
-```
-npx install-peerdeps --dev eslint-config-hudochenkov
-```
-
-If you're using `eslint-config-hudochenkov/react`, install additional plugins:
-
-```
-npm install --save-dev eslint-plugin-react@^7.24.0 eslint-plugin-react-hooks@^4.0.4 eslint-plugin-jsx-a11y@^6.3.1
-```
-
-They're not listed as `peerDependencies`, because not every project is a React project. npm will shows warning after each `npm install` if not all `peerDependencies` are installed.
-
 ## Usage
 
 Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) of your ESLint configuration:
