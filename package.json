@@ -38,13 +38,13 @@
     "eslint-plugin-unicorn": "^21.0.0 || ^22.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.9.0",
+    "eslint": "^7.27.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-plugin-unicorn": "^22.0.0",
-    "prettier": "^2.1.2",
+    "prettier": "^2.3.0",
     "prettier-config-hudochenkov": "^0.2.0"
   },
   "prettier": "prettier-config-hudochenkov"
