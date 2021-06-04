@@ -3,10 +3,7 @@
   "version": "7.2.0",
   "description": "My ESLint configs",
   "files": [
-    "plugin/import.js",
-    "plugin/jsx-a11y.js",
-    "plugin/react.js",
-    "plugin/unicorn.js",
+    "plugin/*",
     "base.js",
     "best-practices.js",
     "common-plugins.js",
@@ -14,6 +11,7 @@
     "index.js",
     "possible-errors.js",
     "react.js",
+    "react-testing.js",
     "stylistic-issues.js",
     "variables.js"
   ],
