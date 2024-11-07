@@ -1,4 +1,4 @@
-module.exports = {
+export const possibleErrors = {
 	rules: {
 		'no-async-promise-executor': 'error',
 		'no-await-in-loop': 'error',

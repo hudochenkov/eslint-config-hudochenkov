@@ -1,5 +1,9 @@
-module.exports = {
-	plugins: ['import'],
+import importPlugin from 'eslint-plugin-import';
+
+export const importRules = {
+	plugins: {
+		import: importPlugin,
+	},
 
 	settings: {
 		'import/resolver': {
@@ -12,13 +16,13 @@ module.exports = {
 
 	rules: {
 		// Static analysis
-		'import/no-unresolved': ['error', { commonjs: true, caseSensitive: true }],
+		'import/no-unresolved': ['error', { caseSensitive: true }],
 		'import/named': 'error',
 		'import/no-dynamic-require': 'warn',
 		'import/no-webpack-loader-syntax': 'error',
 		'import/no-self-import': 'error',
 		'import/no-cycle': 'error',
-		'import/no-useless-path-segments': ['warn', { commonjs: true, noUselessIndex: true }],
+		'import/no-useless-path-segments': ['warn', { commonjs: false, noUselessIndex: false }],
 		'import/no-relative-parent-imports': 'off',
 
 		// Helpful warnings

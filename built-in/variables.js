@@ -1,4 +1,4 @@
-module.exports = {
+export const variables = {
 	rules: {
 		'init-declarations': 'off',
 		'no-delete-var': 'error',

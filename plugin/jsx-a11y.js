@@ -1,17 +1,3 @@
-module.exports = {
-	plugins: ['jsx-a11y'],
+import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
 
-	env: {
-		browser: true,
-	},
-
-	parserOptions: {
-		ecmaFeatures: {
-			jsx: true,
-		},
-	},
-
-	extends: ['plugin:jsx-a11y/recommended'],
-
-	rules: {},
-};
+export const jsxA11y = jsxA11yPlugin.flatConfigs.recommended;

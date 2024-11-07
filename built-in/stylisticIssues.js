@@ -1,4 +1,4 @@
-module.exports = {
+export const stylisticIssues = {
 	rules: {
 		camelcase: 'warn',
 		'func-names': ['warn', 'as-needed'],

@@ -4,11 +4,11 @@ My configs for [ESLint].
 
 Available configs:
 
-* `eslint-config-hudochenkov` — default config which includes following configs:
-	* `eslint-config-hudochenkov/base` — config with only ESLint core rules.
-	* `eslint-config-hudochenkov/common-plugins` — config with [eslint-plugin-unicorn], [eslint-plugin-import], and [eslint-plugin-jest]. Applies both for browser and Node.js projects.
-* `eslint-config-hudochenkov/react` — config for React applications. Includes [eslint-plugin-react], [eslint-plugin-react-hooks], and [eslint-plugin-jsx-a11y] plugins.
-* `eslint-config-hudochenkov/react-testing` — config for tesing React apps with [React Testing Library]. Includes [eslint-plugin-jest-dom] and [eslint-plugin-testing-library] plugins.
+* `main` — default config which includes following configs:
+	* `base` — config with only ESLint core rules.
+	* `commonPlugins` — config with [eslint-plugin-unicorn], [eslint-plugin-import], and [eslint-plugin-jest]. Applies both for browser and Node.js projects.
+* `react` — config for React applications. Includes [eslint-plugin-react], [eslint-plugin-react-hooks], and [eslint-plugin-jsx-a11y] plugins.
+* `reactTesting` — config for tesing React apps with [React Testing Library]. Includes [eslint-plugin-jest-dom] and [eslint-plugin-testing-library] plugins.
 
 ## Installation
 
@@ -20,21 +20,17 @@ npm install --save-dev eslint-config-hudochenkov
 
 ## Usage
 
-Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) of your ESLint configuration:
+Add chosen config to your [ESLint configuration](https://eslint.org/docs/latest/use/configure/combine-configs):
 
-```json
-{
-	"extends": ["eslint-config-hudochenkov"]
-}
-```
+```js
+import { configs } from 'eslint-config-hudochenkov';
 
-```json
-{
-	"extends": [
-		"eslint-config-hudochenkov/react",
-		"eslint-config-hudochenkov/react-testing"
-	]
-}
+export default [
+	...configs.main,
+	...configs.react,
+	...configs.reactTesting,
+	// other configuration objects
+];
 ```
 
 [ESLint]: https://eslint.org/

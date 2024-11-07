@@ -1,5 +1,9 @@
-module.exports = {
-	plugins: ['unicorn'],
+import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+
+export const unicorn = {
+	plugins: {
+		unicorn: eslintPluginUnicorn,
+	},
 
 	rules: {
 		'unicorn/consistent-empty-array-spread': 'error',

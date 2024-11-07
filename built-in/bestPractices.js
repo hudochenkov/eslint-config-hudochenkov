@@ -1,4 +1,4 @@
-module.exports = {
+export const bestPractices = {
 	rules: {
 		'array-callback-return': 'warn',
 		'consistent-return': 'warn',

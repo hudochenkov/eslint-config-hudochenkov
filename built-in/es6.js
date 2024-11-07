@@ -1,4 +1,4 @@
-module.exports = {
+export const es6 = {
 	rules: {
 		'constructor-super': 'error',
 		'no-class-assign': 'error',

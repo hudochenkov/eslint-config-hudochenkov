@@ -4,18 +4,11 @@
   "description": "My ESLint configs",
   "files": [
     "plugin/*",
-    "base.js",
-    "best-practices.js",
-    "common-plugins.js",
-    "es6.js",
-    "index.js",
-    "possible-errors.js",
-    "react.js",
-    "react-testing.js",
-    "stylistic-issues.js",
-    "variables.js"
+    "built-in/*",
+    "index.js"
   ],
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "test": "eslint . && prettier '**/*.js' --check",
     "fix": "eslint . --fix && prettier '**/*.js' --write"
@@ -30,6 +23,9 @@
     "url": "https://github.com/hudochenkov/eslint-config-hudochenkov/issues"
   },
   "homepage": "https://github.com/hudochenkov/eslint-config-hudochenkov#readme",
+  "dependencies": {
+    "globals": "^15.12.0"
+  },
   "peerDependencies": {
     "eslint": "^8.21.0",
     "eslint-plugin-import": "^2.31.0",
@@ -54,5 +50,8 @@
     "prettier": "^3.3.3",
     "prettier-config-hudochenkov": "^0.4.0"
   },
-  "prettier": "prettier-config-hudochenkov"
+  "prettier": "prettier-config-hudochenkov",
+  "engines": {
+    "node": ">=20"
+  }
 }
