@@ -20,6 +20,7 @@ module.exports = {
 		'react/button-has-type': 'error',
 		'react/default-props-match-prop-types': 'off',
 		'react/destructuring-assignment': 'off',
+		'react/forward-ref-uses-ref': 'error',
 		'react/function-component-definition': [
 			'warn',
 			{
@@ -37,6 +38,7 @@ module.exports = {
 		'react/no-did-update-set-state': 'warn',
 		'react/no-direct-mutation-state': 'error',
 		'react/no-find-dom-node': 'warn',
+		'react/no-object-type-as-default-prop': 'warn',
 		'react/no-redundant-should-component-update': 'warn',
 		'react/no-render-return-value': 'error',
 		'react/no-set-state': 'off',
