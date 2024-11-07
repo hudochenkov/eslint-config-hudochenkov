@@ -42,8 +42,6 @@ module.exports = {
 					'**/webpack.config.*.js', // webpack config
 					'**/rollup.config.js', // rollup config
 					'**/rollup.config.*.js', // rollup config
-					'**/gulpfile.js', // gulp config
-					'**/Gruntfile.js', // grunt config
 				],
 				optionalDependencies: false,
 			},

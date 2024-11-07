@@ -38,10 +38,10 @@ Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/
 ```
 
 [ESLint]: https://eslint.org/
-[eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
-[eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
-[eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
-[eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y
+[eslint-plugin-import]: https://github.com/import-js/eslint-plugin-import
+[eslint-plugin-react]: https://github.com/jsx-eslint/eslint-plugin-react
+[eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
+[eslint-plugin-jsx-a11y]: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 [eslint-plugin-jest]: https://github.com/jest-community/eslint-plugin-jest
 [React Testing Library]: https://testing-library.com/docs/react-testing-library/intro/

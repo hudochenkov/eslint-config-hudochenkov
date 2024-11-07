@@ -9,7 +9,6 @@ module.exports = {
 		'no-lonely-if': 'warn',
 		'no-multi-assign': 'error',
 		'no-nested-ternary': 'warn',
-		'no-new-object': 'error',
 		'no-tabs': 'off',
 		'no-unneeded-ternary': 'warn',
 		'one-var': ['warn', 'never'],
