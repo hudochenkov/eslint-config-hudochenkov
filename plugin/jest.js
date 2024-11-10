@@ -14,7 +14,7 @@ export const jest = {
 	rules: {
 		'jest/no-alias-methods': 'error',
 		'jest/no-conditional-in-test': 'error',
-		'jest/no-confusing-set-time': 'error',
+		'jest/no-confusing-set-timeout': 'error',
 		'jest/no-deprecated-functions': 'error',
 		'jest/no-done-callback': 'warn',
 		'jest/no-duplicate-hooks': 'error',
