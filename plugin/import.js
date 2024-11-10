@@ -46,6 +46,8 @@ export const importRules = {
 					'**/webpack.config.*.js', // webpack config
 					'**/rollup.config.js', // rollup config
 					'**/rollup.config.*.js', // rollup config
+					'**/eslint.config.{js,mjs}',
+					'**/vite.config.{js,mjs,ts,mts}',
 				],
 				optionalDependencies: false,
 			},
