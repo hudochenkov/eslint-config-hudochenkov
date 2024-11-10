@@ -14,7 +14,7 @@ import { variables } from './built-in/variables.js';
 
 const base = [possibleErrors, bestPractices, variables, stylisticIssues, es6];
 
-const commonPlugins = [unicorn, jest, importRules];
+const commonPlugins = [unicorn, jest, ...importRules];
 
 const react = [jsxA11y, reactPlugin];
 
