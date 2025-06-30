@@ -25,7 +25,6 @@ export const bestPractices = defineConfig([
 			'no-param-reassign': 'error',
 			'no-redeclare': 'error',
 			'no-return-assign': 'error',
-			'no-return-await': 'error',
 			'no-script-url': 'error',
 			'no-self-assign': 'error',
 			'no-self-compare': 'error',

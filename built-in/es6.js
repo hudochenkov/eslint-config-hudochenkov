@@ -8,7 +8,7 @@ export const es6 = defineConfig([
 			'no-const-assign': 'error',
 			'no-dupe-class-members': 'warn',
 			'no-duplicate-imports': 'warn',
-			'no-new-symbol': 'error',
+			'no-new-native-nonconstructor': 'error',
 			'no-this-before-super': 'error',
 			'no-useless-computed-key': 'warn',
 			'no-useless-constructor': 'warn',
