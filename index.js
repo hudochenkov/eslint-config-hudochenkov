@@ -9,13 +9,14 @@ import { jsxA11y } from './plugin/jsx-a11y.js';
 import { possibleErrors } from './built-in/possibleErrors.js';
 import { react as reactPlugin } from './plugin/react.js';
 import { stylisticIssues } from './built-in/stylisticIssues.js';
+import { stylistic } from './plugin/stylistic.js';
 import { testingLibrary } from './plugin/testing-library.js';
 import { unicorn } from './plugin/unicorn.js';
 import { variables } from './built-in/variables.js';
 
 const base = defineConfig([possibleErrors, bestPractices, variables, stylisticIssues, es6]);
 
-const commonPlugins = defineConfig([unicorn, jest, importRules]);
+const commonPlugins = defineConfig([stylistic, unicorn, jest, importRules]);
 
 const react = defineConfig([jsxA11y, reactPlugin]);
 

@@ -5,7 +5,6 @@ export const es6 = defineConfig([
 		rules: {
 			'constructor-super': 'error',
 			'no-class-assign': 'error',
-			'no-confusing-arrow': 'warn',
 			'no-const-assign': 'error',
 			'no-dupe-class-members': 'warn',
 			'no-duplicate-imports': 'warn',

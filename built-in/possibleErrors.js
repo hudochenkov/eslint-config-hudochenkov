@@ -19,7 +19,6 @@ export const possibleErrors = defineConfig([
 			'no-empty': ['warn', { allowEmptyCatch: true }],
 			'no-ex-assign': 'warn',
 			'no-extra-boolean-cast': 'warn',
-			'no-extra-semi': 'warn',
 			'no-func-assign': 'error',
 			'no-import-assign': 'error',
 			'no-inner-declarations': 'error',

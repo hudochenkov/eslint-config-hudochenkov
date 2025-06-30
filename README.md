@@ -6,7 +6,7 @@ Available configs:
 
 * `main` — default config which includes following configs:
 	* `base` — config with only ESLint core rules.
-	* `commonPlugins` — config with [eslint-plugin-unicorn], [eslint-plugin-import], and [eslint-plugin-jest]. Applies both for browser and Node.js projects.
+	* `commonPlugins` — config with [@stylistic/eslint-plugin], [eslint-plugin-unicorn], [eslint-plugin-import], and [eslint-plugin-jest]. Applies both for browser and Node.js projects.
 * `react` — config for React applications. Includes [eslint-plugin-react], [eslint-plugin-react-hooks], and [eslint-plugin-jsx-a11y] plugins.
 * `reactTesting` — config for tesing React apps with [React Testing Library]. Includes [eslint-plugin-jest-dom] and [eslint-plugin-testing-library] plugins.
 
@@ -35,6 +35,7 @@ export default defineConfig([
 ```
 
 [ESLint]: https://eslint.org/
+[@stylistic/eslint-plugin]: https://eslint.style/
 [eslint-plugin-import]: https://github.com/import-js/eslint-plugin-import
 [eslint-plugin-react]: https://github.com/jsx-eslint/eslint-plugin-react
 [eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
