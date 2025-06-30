@@ -43,6 +43,7 @@ export const unicorn = {
 		'unicorn/prefer-dom-node-dataset': 'warn',
 		'unicorn/prefer-dom-node-remove': 'warn',
 		'unicorn/prefer-export-from': 'error',
+		'unicorn/prefer-import-meta-properties': 'warn',
 		'unicorn/prefer-includes': 'warn',
 		'unicorn/prefer-keyboard-event-key': 'error',
 		'unicorn/prefer-math-min-max': 'warn',
