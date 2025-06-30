@@ -24,13 +24,14 @@ Add chosen config to your [ESLint configuration](https://eslint.org/docs/latest/
 
 ```js
 import { configs } from 'eslint-config-hudochenkov';
+import { defineConfig } from 'eslint/config';
 
-export default [
-	...configs.main,
-	...configs.react,
-	...configs.reactTesting,
+export default defineConfig([
+	configs.main,
+	configs.react,
+	configs.reactTesting,
 	// other configuration objects
-];
+]);
 ```
 
 [ESLint]: https://eslint.org/

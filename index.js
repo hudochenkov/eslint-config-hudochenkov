@@ -1,3 +1,4 @@
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 import { bestPractices } from './built-in/bestPractices.js';
 import { es6 } from './built-in/es6.js';
@@ -12,15 +13,15 @@ import { testingLibrary } from './plugin/testing-library.js';
 import { unicorn } from './plugin/unicorn.js';
 import { variables } from './built-in/variables.js';
 
-const base = [possibleErrors, bestPractices, variables, stylisticIssues, es6];
+const base = defineConfig([possibleErrors, bestPractices, variables, stylisticIssues, es6]);
 
-const commonPlugins = [unicorn, jest, ...importRules];
+const commonPlugins = defineConfig([unicorn, jest, importRules]);
 
-const react = [jsxA11y, reactPlugin];
+const react = defineConfig([jsxA11y, reactPlugin]);
 
-const reactTesting = [jestDom, testingLibrary];
+const reactTesting = defineConfig([jestDom, testingLibrary]);
 
-const main = [
+const main = defineConfig([
 	{
 		languageOptions: {
 			parserOptions: {
@@ -33,9 +34,9 @@ const main = [
 			},
 		},
 	},
-	...base,
-	...commonPlugins,
-];
+	base,
+	commonPlugins,
+]);
 
 export const configs = {
 	main,

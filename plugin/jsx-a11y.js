@@ -1,3 +1,5 @@
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
+import { defineConfig } from 'eslint/config';
 
-export const jsxA11y = jsxA11yPlugin.flatConfigs.recommended;
+/* @ts-ignore -- some kind of issue with shared config types */
+export const jsxA11y = defineConfig([jsxA11yPlugin.flatConfigs.recommended]);

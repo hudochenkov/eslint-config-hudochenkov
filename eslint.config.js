@@ -1,8 +1,9 @@
+import { defineConfig } from 'eslint/config';
 import { configs } from './index.js';
 import globals from 'globals';
 
-export default [
-	...configs.main,
+export default defineConfig([
+	configs.main,
 	{
 		languageOptions: {
 			globals: {
@@ -16,4 +17,4 @@ export default [
 			'import/no-default-export': 'off',
 		},
 	},
-];
+]);

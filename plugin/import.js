@@ -1,6 +1,7 @@
 import importPlugin from 'eslint-plugin-import';
+import { defineConfig } from 'eslint/config';
 
-export const importRules = [
+export const importRules = defineConfig([
 	{
 		plugins: {
 			import: importPlugin,
@@ -78,4 +79,4 @@ export const importRules = [
 			'import/no-default-export': 'off',
 		},
 	},
-];
+]);
