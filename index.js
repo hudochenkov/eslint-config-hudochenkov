@@ -13,7 +13,7 @@ import { unicorn } from './plugin/unicorn.js';
 
 const base = defineConfig([possibleProblems, suggestions]);
 
-const commonPlugins = defineConfig([stylistic, unicorn, jest, importRules]);
+const commonPlugins = defineConfig([stylistic, unicorn, importRules]);
 
 const react = defineConfig([jsxA11y, reactPlugin]);
 
@@ -40,6 +40,7 @@ export const configs = {
 	main,
 	base,
 	commonPlugins,
+	jest,
 	react,
 	reactTesting,
 };
