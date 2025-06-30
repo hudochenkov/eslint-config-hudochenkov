@@ -17,7 +17,7 @@ export const importRules = [
 
 		rules: {
 			// Static analysis
-			'import/no-unresolved': ['error', { caseSensitive: true }],
+			// 'import/no-unresolved': ['error', { caseSensitive: true }], // disabled because it doesn't work with `exports` field in package.json https://github.com/import-js/eslint-plugin-import/issues/2495. Need to switch to eslint-plugin-import-x or typescript resolver
 			'import/named': 'error',
 			'import/no-dynamic-require': 'warn',
 			'import/no-webpack-loader-syntax': 'error',
